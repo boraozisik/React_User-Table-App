@@ -1,3 +1,8 @@
+# Purpose of the Project #
+*There is a table that shows user's informations and user can edit these informations on table.*
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
