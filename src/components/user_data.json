@@ -1,0 +1,298 @@
+
+[
+    {
+        "id": "1",
+        "name": "Geralt Rivia",
+        "email": "geraltofrivia@gm.com",
+        "favorite_game": "The Witcher 3 Wild Hunt",
+        "favorite_book": "The Witcher Baptism of Fire",
+        "favorite_film": "The Witcher"
+        
+
+    },
+    {
+        "id": "2",
+        "name": "Chandler Bing",
+        "email": "chandlerbing@gm.com",
+        "favorite_game": "Tetris",
+        "favorite_book": "Chicken Soup For The Soul",
+        "favorite_film": "Friends"
+
+
+    },
+    {
+        "id": "3",
+        "name": "Ragnar Lodbrok",
+        "email": "lodbrokragnar@gm.com",
+        "favorite_game": "Valhalla",
+        "favorite_book": "Vikings",
+        "favorite_film": "Vikings"
+
+
+    },
+    {
+        "id": "4",
+        "name": "Giorno Giovanna",
+        "email": "giornogiovanna@gm.com",
+        "favorite_game": "Jojo's Bizarre Adventure: Eyes Of Heaven",
+        "favorite_book": "JoJo's Bizarre Adventure: Golden Wind",
+        "favorite_film": "JoJo's Bizarre Adventure"
+
+
+    },
+    {
+        "id": "5",
+        "name": "Peter Parker",
+        "email": "peterparker@gm.com",
+        "favorite_game": "Marvel’s Spider-Man",
+        "favorite_book": "Spider-Man: Brand New Day",
+        "favorite_film": "Spider-Man 2"
+
+
+    },
+    {
+        "id": "6",
+        "name": "Al Pacino",
+        "email": "alpacino@gm.com",
+        "favorite_game": "PlayerUnknown's Battlegrounds",
+        "favorite_book": "Crime And Punishment",
+        "favorite_film": "Scent of a Woman"
+
+
+    },
+    {
+        "id": "7",
+        "name": "Charlotte Katakuri",
+        "email": "charlottekatakuri@gm.com",
+        "favorite_game": "One Piece: Pirate Warriors",
+        "favorite_book": "Emperor of the Sea, Charlotte Linlin",
+        "favorite_film": "One Piece Film: Strong World"
+    },
+    {
+        "id": "8",
+        "name": "Merlin",
+        "email": "merlinthemage@gm.com",
+        "favorite_game": "The Hand of Merlin",
+        "favorite_book": "The Lost Years",
+        "favorite_film": "Merlin"
+    },
+    {
+        "id": "9",
+        "name": "Michael Scofield",
+        "email": "scofieldmichael@gm.com",
+        "favorite_game": "Fortnite",
+        "favorite_book": "Lockdown Master",
+        "favorite_film": "Prison Break"
+
+
+    },
+    {
+        "id": "10",
+        "name": "Freddie Mercury",
+        "email": "mercuryforqueen@gm.com",
+        "favorite_game": "Queen Escape",
+        "favorite_book": "Queen Live Aid",
+        "favorite_film": "Bohemian Rhapsody"
+
+
+    },
+    {
+        "id": "11",
+        "name": "Bon Jovi",
+        "email": "bonjovi@gm.com",
+        "favorite_game": "Hearts of Iron IV",
+        "favorite_book": "BBC Jovi",
+        "favorite_film": "Limitless"
+
+
+    },
+    {
+        "id": "12",
+        "name": "Kuzey Tekinoğlu",
+        "email": "tekinoglu@gm.com",
+        "favorite_game": "Boxing",
+        "favorite_book": "How To Buy and Manage Property",
+        "favorite_film": "Kuzey Güney"
+
+
+    },
+    {
+        "id": "13",
+        "name": "Vinsmoke Sanji",
+        "email": "sanjivinsmoke@gm.com",
+        "favorite_game": "Baratie",
+        "favorite_book": "How To Impress Girls",
+        "favorite_film": "All Blue"
+
+
+    },
+    {
+        "id": "14",
+        "name": "Jonathan Joestar",
+        "email": "jonathanjoestar@gm.com",
+        "favorite_game": "Fighting with Dio",
+        "favorite_book": "How To Beat Dio",
+        "favorite_film": "JoJo's Bizarre Adventure:Phantom Blood"
+
+
+    },
+    {
+        "id": "15",
+        "name": "Bora Özışık",
+        "email": "bora@gm.com",
+        "favorite_game": "The Witcher 3 Wild Hunt",
+        "favorite_book": "Nutuk",
+        "favorite_film": "Titanic"
+
+
+    },
+    {
+        "id": "16",
+        "name": "Lelouch Lamperouge",
+        "email": "lamperougelelouch@gm.com",
+        "favorite_game": "Chess",
+        "favorite_book": "Chess",
+        "favorite_film": "The Mitchells vs the Machines"
+
+
+    },
+    {
+        "id": "17",
+        "name": "Edward Elric",
+        "email": "elricedward@gm.com",
+        "favorite_game": "Cs Go",
+        "favorite_book": "The Alchemist",
+        "favorite_film": "Fullmetal Alchemist"
+
+
+    },
+    {
+        "id": "18",
+        "name": "Rüzgar Özışık",
+        "email": "ruzgar@gm.com",
+        "favorite_game": "PUBG: Battlegrounds",
+        "favorite_book": "Harry Potter and the Half-Blood Prince",
+        "favorite_film": "Demon Slayer"
+
+
+    },
+    {
+        "id": "19",
+        "name": "DIO",
+        "email": "dio@gm.com",
+        "favorite_game": "Fighting with JoJo's",
+        "favorite_book": "I hate JoJo's",
+        "favorite_film": "JoJo's Bizarre Adventure:Phantom Blood"
+
+
+    },
+    {
+        "id": "20",
+        "name": "Monkey D. Luffy",
+        "email": "monkeydluffy@gm.com",
+        "favorite_game": "ONE PIECE TREASURE CRUISE",
+        "favorite_book": "Romance Dawn - The Dawn of the Adventure",
+        "favorite_film": "One Piece: Film Gold"
+
+
+    },
+    {
+        "id": "21",
+        "name": "Joseph Joestar",
+        "email": "josephjoestar@gm.com",
+        "favorite_game": "Jojo's Bizarre Adventure: Eyes Of Heaven",
+        "favorite_book": "Your next Line Is...",
+        "favorite_film": "The Godfather"
+
+
+    },
+    {
+        "id": "22",
+        "name": "Miles Morales",
+        "email": "milesmorales@gm.com",
+        "favorite_game": "Web of Shadows",
+        "favorite_book": "Spider-Man: One More Day",
+        "favorite_film": "Into the Spider-Verse"
+
+
+    },
+    {
+        "id": "23",
+        "name": "Truman",
+        "email": "ıamtruman@gm.com",
+        "favorite_game": "Minecraft",
+        "favorite_book": "Brennendes Geheimnis",
+        "favorite_film": "The Truman Show"
+
+
+    },
+    {
+        "id": "24",
+        "name": "Bruce Wayne",
+        "email": "brucewayne@gm.com",
+        "favorite_game": "Arkham City",
+        "favorite_book": "Bat",
+        "favorite_film": "The Dark Knight"
+
+
+    },
+    {
+        "id": "25",
+        "name": "Jotaro Cujoh",
+        "email": "cujohjotaro@gm.com",
+        "favorite_game": "Jojo's Bizarre Adventure: Eyes Of Heaven",
+        "favorite_book": "Darby",
+        "favorite_film": " Wrath of Man "
+
+
+    },
+    {
+        "id": "26",
+        "name": "Yagami Light",
+        "email": "lightyagami@gm.com",
+        "favorite_game": "Tennis",
+        "favorite_book": "Animal Farm",
+        "favorite_film": "Death Note"
+
+
+    },
+    {
+        "id": "27",
+        "name": "Charlotte LinLin",
+        "email": "charlottelinlin@gm.com",
+        "favorite_game": "One Piece: Pirate Warriors",
+        "favorite_book": "Emperor of the Sea, Charlotte Linlin",
+        "favorite_film": "One Piece Film: Strong World"
+
+       
+    },
+    {
+        "id": "28",
+        "name": "Kenshin Himura",
+        "email": "himurakenshin@gm.com",
+        "favorite_game": "Valorant",
+        "favorite_book": "The Midnight Library",
+        "favorite_film": "Rurouni Kenshin"
+
+
+    },
+    {
+        "id": "29",
+        "name": "Sakata Gintoki",
+        "email": "gintokisakata@gm.com",
+        "favorite_game": "J-Stars Victory",
+        "favorite_book": "Shounen Jump",
+        "favorite_film": "Gintama"
+
+
+    },
+    {
+        "id": "30",
+        "name": "Jolyne Cujoh",
+        "email": "cujohjolyne@gm.com",
+        "favorite_game": "Jojo's Bizarre Adventure: Eyes Of Heaven",
+        "favorite_book": "Green Dolphin Street",
+        "favorite_film": "Stone Ocean"
+    }
+
+]

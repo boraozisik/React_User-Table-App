@@ -1,0 +1,71 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th, tfoot td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #A9D09E;
+    color: black;
+  }
+  .input {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: .5s;
+    font-size: 20px;
+    
+    background-color:  #F6E2BC;
+    color: #283747;
+    border-radius: 25px 0 0 25px;
+  }
+  .pageButton{
+    width: 100px;
+    height: 30px;
+    color: #283747;
+    background-color: #F6E2BC;
+    border-radius: 7px;
+    box-shadow: inset 0px 0px 0px 0px wheat;
+    font-size: 15px;  
+  }
+  .pageButtonArrow {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-color: #A9D09E;
+    border-radius: 7px;
+    box-shadow: inset 0px 0px 0px 0px wheat;
+    font-size: 15px;  
+  }
+  .pageInfoButton{
+    margin-top: 15px;
+    width: 130px;
+    height: 30px;
+    color: black;
+    background-color: #85C1E9;
+    border-radius: 7px;
+    box-shadow: inset 0px 0px 0px 0px wheat;
+    font-size: 15px;  
+  }
+  .actions{
+    
+    padding: 7px;
+  }
+  .pageIcon{
+    padding: 5px;
+  }
