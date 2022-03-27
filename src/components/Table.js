@@ -4,7 +4,14 @@ import user_data from './user_data.json'
 import { COLUMNS, } from './columns'
 import './table.css'
 import { GlobalFilter } from './GlobalFilter'
-
+import { Button,Stack,IconButton } from '@mui/material'
+import DeleteIcon from '@mui/icons-material/Delete';
+import EditIcon from '@mui/icons-material/Edit';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import FirstPageIcon from '@mui/icons-material/FirstPage';
+import LastPageIcon from '@mui/icons-material/LastPage';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 
 
@@ -36,6 +43,7 @@ export const Table = () => {
         pageCount,
         
         prepareRow,
+        
         state,
         setGlobalFilter
 
@@ -72,10 +80,13 @@ export const Table = () => {
       }
 
     return (
+        
         <>
-         <GlobalFilter filter={globalFilter} setFilter = {setGlobalFilter}/>
+        
+        <GlobalFilter filter={globalFilter} setFilter = {setGlobalFilter}/>
         
         <table {...getTableProps()}>
+            
             <thead>
                 {
                     headerGroups.map(headerGroup => (
@@ -113,9 +124,15 @@ export const Table = () => {
 
                                 
                                 <td>
+                                    <IconButton aria-label='edit' color='info' size='small' onClick = {() => handleEditClick()} >
+                                        
+                                        <EditIcon/>
+                                    </IconButton>    
                                     
-                                    <i  className="fa-solid fa-pen actions"  onClick={() => handleEditClick()} ></i> 
-                                    <i className="fa-solid fa-trash actions"  onClick={() => handleDeleteClick(row)}></i>        
+                                    <IconButton aria-label='delete' color='error' size='small' onClick = {() => handleDeleteClick(row)} >
+                                        <DeleteIcon  />
+                                        
+                                    </IconButton>    
                                 </td>
                             
                             </tr>
@@ -128,23 +145,17 @@ export const Table = () => {
              
         <div>
             
-            <button className='pageButtonArrow' onClick={() => gotoPage(0)} disabled = {!canPreviousPage}> <i className="fa-solid fa-backward-fast"></i> </button>
-            <button className='pageButton' onClick={() => previousPage()} disabled = {! canPreviousPage}> <i className="fa-solid fa-circle-arrow-left"></i> Previous</button>
-            <button className='pageButton' onClick={() => nextPage()} disabled = {! canNextPage}>Next <i className="fa-solid fa-circle-arrow-right"></i></button>
-            <button className='pageButtonArrow' onClick={() => gotoPage(pageCount - 1)} disabled = {!canNextPage}> <i className="fa-solid fa-forward-fast"></i> </button>
-            
+            <Button variant = 'contained' color='success' startIcon = {<FirstPageIcon/>}  onClick = {() => gotoPage(0)} disabled = {!canPreviousPage} ></Button>
+            <Button variant = 'contained' color='info' startIcon = {<ArrowBackIcon/>}  onClick = {() => previousPage()} disabled = {! canPreviousPage} size='small'>Previous</Button>
+            <Button variant = 'contained' color='info' startIcon = {<ArrowForwardIcon/>}  onClick = {() => nextPage()} disabled = {! canNextPage} size='small'>Next</Button>    
+            <Button variant = 'contained' color='success' startIcon = {<LastPageIcon/>}  onClick = {() => gotoPage(pageCount - 1)} disabled = {!canNextPage} ></Button>
         </div>
 
         <div>
-            <button className='pageInfoButton' disabled = {true}> 
-                
-                <i className="fa-solid fa-pager pageIcon"></i> 
-                   
+            <Button variant = 'contained' color='warning' startIcon = {<ContactPageIcon/>} disableRipple>
                 Page: {' '}<strong> {pageIndex + 1} / {pageOptions.length}</strong>{' '}
-
-                
-                
-            </button>
+            </Button>
+            
         </div>
         
         </>    
