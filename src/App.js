@@ -6,7 +6,7 @@ import { Table } from './components/Table';
 function App() {
   return (
     <div className="App mt-3">
-      <h1>User-Table-App</h1>
+      <h1>User Table App</h1>
       <hr />
       <div className="row">
 
