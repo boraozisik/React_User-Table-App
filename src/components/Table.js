@@ -4,7 +4,7 @@ import user_data from './user_data.json'
 import { COLUMNS, } from './columns'
 import './table.css'
 import { GlobalFilter } from './GlobalFilter'
-import { Button,Stack,IconButton } from '@mui/material'
+import { Button,Stack,IconButton,ButtonGroup } from '@mui/material'
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -144,15 +144,16 @@ export const Table = () => {
         </table>
              
         <div>
-            
+            <ButtonGroup size='medium'>
             <Button variant = 'contained' color='success' startIcon = {<FirstPageIcon/>}  onClick = {() => gotoPage(0)} disabled = {!canPreviousPage} ></Button>
-            <Button variant = 'contained' color='info' startIcon = {<ArrowBackIcon/>}  onClick = {() => previousPage()} disabled = {! canPreviousPage} size='small'>Previous</Button>
-            <Button variant = 'contained' color='info' startIcon = {<ArrowForwardIcon/>}  onClick = {() => nextPage()} disabled = {! canNextPage} size='small'>Next</Button>    
+            <Button variant = 'contained' color='info' startIcon = {<ArrowBackIcon/>}  onClick = {() => previousPage()} disabled = {! canPreviousPage} >Previous</Button>
+            <Button variant = 'contained' color='info' startIcon = {<ArrowForwardIcon/>}  onClick = {() => nextPage()} disabled = {! canNextPage} >Next</Button>    
             <Button variant = 'contained' color='success' startIcon = {<LastPageIcon/>}  onClick = {() => gotoPage(pageCount - 1)} disabled = {!canNextPage} ></Button>
+            </ButtonGroup>
         </div>
 
         <div>
-            <Button variant = 'contained' color='warning' startIcon = {<ContactPageIcon/>} disableRipple>
+            <Button variant = 'contained' color='warning' startIcon = {<ContactPageIcon/>} disableRipple size='medium'>
                 Page: {' '}<strong> {pageIndex + 1} / {pageOptions.length}</strong>{' '}
             </Button>
             
