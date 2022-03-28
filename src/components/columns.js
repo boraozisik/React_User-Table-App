@@ -1,4 +1,16 @@
+import { Avatar } from "@mui/material"
+
 export const COLUMNS = [
+    {
+        Header: 'Image',
+        accessor: 'icon',
+        
+        disableFilters: true,
+
+        Cell: tableProps => (
+            <Avatar src={tableProps.row.original.icon} />      
+          )
+    },
     {
         Header: 'Id',
         Footer: 'Id',
@@ -31,10 +43,7 @@ export const COLUMNS = [
         Footer: 'Favorite Film',
         accessor: 'favorite_film',
     },
-  
+    
 
 
 ]
-
-
-
