@@ -1,6 +1,7 @@
 
 [
     {
+        "icon": "https://i.pinimg.com/originals/2c/bb/dc/2cbbdcdf16041c8f6256f16623cfd656.jpg",
         "id": "1",
         "name": "Geralt Rivia",
         "email": "geraltofrivia@gm.com",
@@ -8,9 +9,11 @@
         "favorite_book": "The Witcher Baptism of Fire",
         "favorite_film": "The Witcher"
         
+        
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/originals/82/6f/36/826f36739d7583ccdab59b2d8a60fb87.jpg",
         "id": "2",
         "name": "Chandler Bing",
         "email": "chandlerbing@gm.com",
@@ -20,7 +23,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://static.daktilo.com/sites/496/uploads/2021/04/03/r4cc27dcb9641718c37d35c4ac3d74429.jpg",
         "id": "3",
         "name": "Ragnar Lodbrok",
         "email": "lodbrokragnar@gm.com",
@@ -30,7 +34,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://64.media.tumblr.com/f7c91b0cf9c6d88d71006ceccf7f600d/tumblr_ppd61uxsCD1ujjo3lo1_250.png",
         "id": "4",
         "name": "Giorno Giovanna",
         "email": "giornogiovanna@gm.com",
@@ -40,7 +45,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/originals/56/32/71/563271ab2f874f3ee3a8feaf94450063.jpg",
         "id": "5",
         "name": "Peter Parker",
         "email": "peterparker@gm.com",
@@ -50,7 +56,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://64.media.tumblr.com/4851451d3971e894e16fc1e385b08c82/61d72831997f665b-6d/s400x600/c7cb580e1fb038fd45f5fb2778aa7733748c43c0.png",
         "id": "6",
         "name": "Al Pacino",
         "email": "alpacino@gm.com",
@@ -60,7 +67,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Tobey_Maguire_2014.jpg",
         "id": "7",
         "name": "Charlotte Katakuri",
         "email": "charlottekatakuri@gm.com",
@@ -68,7 +76,8 @@
         "favorite_book": "Emperor of the Sea, Charlotte Linlin",
         "favorite_film": "One Piece Film: Strong World"
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/736x/f0/b0/8a/f0b08a528fcbc5492b43d1fa9c77b9f6.jpg",
         "id": "8",
         "name": "Merlin",
         "email": "merlinthemage@gm.com",
@@ -76,7 +85,8 @@
         "favorite_book": "The Lost Years",
         "favorite_film": "Merlin"
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/originals/b6/ec/46/b6ec46b4da2bcd5d5b3aadc9826eb036.png",
         "id": "9",
         "name": "Michael Scofield",
         "email": "scofieldmichael@gm.com",
@@ -86,7 +96,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://64.media.tumblr.com/35b3d8a1791af8d023ab73dcd7eded96/tumblr_pirc6gEdYa1valwms_500.jpg",
         "id": "10",
         "name": "Freddie Mercury",
         "email": "mercuryforqueen@gm.com",
@@ -96,7 +107,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/564x/0a/1b/ac/0a1bac2f7095c70bf7a47351b2574a97.jpg",
         "id": "11",
         "name": "Bon Jovi",
         "email": "bonjovi@gm.com",
@@ -106,7 +118,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/474x/b4/d6/bd/b4d6bda72557b95884b69a69f98a0f6e--series-news.jpg",
         "id": "12",
         "name": "Kuzey Tekinoğlu",
         "email": "tekinoglu@gm.com",
@@ -116,7 +129,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/originals/39/f5/3a/39f53a559a6c2befd92a9ddddc9596b2.png",
         "id": "13",
         "name": "Vinsmoke Sanji",
         "email": "sanjivinsmoke@gm.com",
@@ -126,17 +140,19 @@
 
 
     },
-    {
+    {   
+        "icon": "https://64.media.tumblr.com/6ac88a1e9c192fa4d0d6a085a4699cd2/1bafaea8576af5a6-9a/s1280x1920/7e050b15ac9d817e988227175cc6bd001a9cff72.jpg",
         "id": "14",
-        "name": "Jonathan Joestar",
-        "email": "jonathanjoestar@gm.com",
+        "name": "Dua Joestar",
+        "email": "duajoestar@gm.com",
         "favorite_game": "Fighting with Dio",
         "favorite_book": "How To Beat Dio",
         "favorite_film": "JoJo's Bizarre Adventure:Phantom Blood"
 
 
     },
-    {
+    {   
+        "icon": "https://media-exp1.licdn.com/dms/image/C4D03AQGcrjFyhB6VnA/profile-displayphoto-shrink_800_800/0/1640649688489?e=1654128000&v=beta&t=b3bj_c8jnsATzjcs7099NJwukJp5CtfSD4lrd2YWXjQ",
         "id": "15",
         "name": "Bora Özışık",
         "email": "bora@gm.com",
@@ -146,17 +162,19 @@
 
 
     },
-    {
+    {   
+        "icon": "https://64.media.tumblr.com/b9730e560a74de5afc84771956814314/ac3c9065187b923a-95/s540x810/d9366fb3e0c115a277d9dc5d4f52ec271b5f59ea.jpg",
         "id": "16",
-        "name": "Lelouch Lamperouge",
-        "email": "lamperougelelouch@gm.com",
+        "name": "Hazar Lamperouge",
+        "email": "lamperougehazar@gm.com",
         "favorite_game": "Chess",
         "favorite_book": "Chess",
         "favorite_film": "The Mitchells vs the Machines"
 
 
     },
-    {
+    {   
+        "icon": "https://64.media.tumblr.com/83f19e9fc8846a35c73b9022df632928/tumblr_pi4400fvEr1vx7wax_1280.jpg",
         "id": "17",
         "name": "Edward Elric",
         "email": "elricedward@gm.com",
@@ -166,7 +184,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://scontent.fadb3-2.fna.fbcdn.net/v/t39.30808-6/234739676_607669673558684_2204785148474124573_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=174925&_nc_ohc=hGjjCOmSm94AX_UeAhE&_nc_ht=scontent.fadb3-2.fna&oh=00_AT_Z6mKUGZ4qtLaRlAs2-HUoyPNs3ZF20mnqQp98IamOQg&oe=6246A5BD",
         "id": "18",
         "name": "Rüzgar Özışık",
         "email": "ruzgar@gm.com",
@@ -176,7 +195,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://img.wattpad.com/8752fbc97b078d2976d0f5779c82bb56644cab67/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f7a6a764c435a525f464e68756d773d3d2d313331302e313638336362393733313035326433363536303534323635383934332e6a7067?s=fit&w=720&h=720",
         "id": "19",
         "name": "DIO",
         "email": "dio@gm.com",
@@ -186,7 +206,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/474x/f6/e9/40/f6e9407fe5b6378283ec1d49a6d6e393.jpg",
         "id": "20",
         "name": "Monkey D. Luffy",
         "email": "monkeydluffy@gm.com",
@@ -196,7 +217,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/474x/d7/e7/a8/d7e7a8679c35c633bbd87ce4e7ce5f69.jpg",
         "id": "21",
         "name": "Joseph Joestar",
         "email": "josephjoestar@gm.com",
@@ -206,17 +228,19 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/originals/ec/62/6c/ec626c89fed230c51a067372c828fb27.jpg",
         "id": "22",
-        "name": "Miles Morales",
-        "email": "milesmorales@gm.com",
+        "name": "Emma Morales",
+        "email": "emmamorales@gm.com",
         "favorite_game": "Web of Shadows",
         "favorite_book": "Spider-Man: One More Day",
         "favorite_film": "Into the Spider-Verse"
 
 
     },
-    {
+    {   
+        "icon": "https://64.media.tumblr.com/465fce103c12201978e593d83f3d5b72/tumblr_pjgeu0cdce1tn5rhd_400.jpg",
         "id": "23",
         "name": "Truman",
         "email": "ıamtruman@gm.com",
@@ -226,7 +250,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://64.media.tumblr.com/a26409eae269c9e363947f630d624e3c/20e17643d669d4c1-f5/s400x600/6c4c68dcaa0e848716bd07675a3a9caf0c97061a.jpg",
         "id": "24",
         "name": "Bruce Wayne",
         "email": "brucewayne@gm.com",
@@ -236,7 +261,8 @@
 
 
     },
-    {
+    {   
+        "icon": "http://images5.fanpop.com/image/photos/32000000/Bruce-Wayne-bruce-wayne-32052868-1680-2100.jpg",
         "id": "25",
         "name": "Jotaro Cujoh",
         "email": "cujohjotaro@gm.com",
@@ -246,7 +272,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/originals/e9/7b/73/e97b7359eb9d879a7af30837b2b87332.jpg",
         "id": "26",
         "name": "Yagami Light",
         "email": "lightyagami@gm.com",
@@ -256,7 +283,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/originals/ca/52/b8/ca52b87c4dac8ee628290363b494fa5e.png",
         "id": "27",
         "name": "Charlotte LinLin",
         "email": "charlottelinlin@gm.com",
@@ -266,7 +294,8 @@
 
        
     },
-    {
+    {   
+        "icon": "https://i0.wp.com/stallonezone.com/imgs/news/2013/aug/080413sly_autos.png",
         "id": "28",
         "name": "Kenshin Himura",
         "email": "himurakenshin@gm.com",
@@ -276,7 +305,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://64.media.tumblr.com/a97929cd1ab1e2ebd2aabf299bfb0aaa/f7fcecbbfa2540ce-ea/s1280x1920/10177325695b8e94a73e5c55c0ac47e8bc1188cf.jpg",
         "id": "29",
         "name": "Sakata Gintoki",
         "email": "gintokisakata@gm.com",
@@ -286,7 +316,8 @@
 
 
     },
-    {
+    {   
+        "icon": "https://i.pinimg.com/originals/41/01/66/410166d99e10cba57473048f21455a6c.png",
         "id": "30",
         "name": "Jolyne Cujoh",
         "email": "cujohjolyne@gm.com",
