@@ -4,7 +4,7 @@ import user_data from './user_data.json'
 import { COLUMNS, } from './columns'
 import './table.css'
 import { GlobalFilter } from './GlobalFilter'
-import { Button,Stack,IconButton,ButtonGroup } from '@mui/material'
+import { Button,IconButton,ButtonGroup } from '@mui/material'
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -63,6 +63,7 @@ export const Table = () => {
       const newList = [...userList];
       const index = userList.findIndex((rowContact) => rowContact.id === row.original.id);
       
+      
       newList.splice(index,1)
       setUserListMethod(newList)
       
@@ -77,7 +78,8 @@ export const Table = () => {
           
   
       
-      }
+    }
+    
 
     return (
         
@@ -91,6 +93,7 @@ export const Table = () => {
                 {
                     headerGroups.map(headerGroup => (
                         <tr {...headerGroup.getHeaderGroupProps()}>
+                             
                             {
                                 headerGroup.headers.map((column) => (
                                     <th {...column.getHeaderProps(column.getSortByToggleProps())}>{column.render('Header')}
@@ -105,7 +108,9 @@ export const Table = () => {
                                     </th>
                                 ))
                             }
+                            
                             <th>Actions</th>
+                            
                         </tr> 
                     ))
                 }
@@ -116,6 +121,10 @@ export const Table = () => {
                         prepareRow(row)
                         return(
                             <tr  {...row.getRowProps()}>
+                                
+                               
+                                
+                                
                                 {
                                     row.cells.map((cell) => {
                                         return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
