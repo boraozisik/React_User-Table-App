@@ -1,6 +1,9 @@
 # Purpose of the Project #
 *There is a table that shows user's informations and user can edit these informations on table.*
-
+# I used React Table and MaterialUI in this project so you need to install them. #
+*For install react table => npm install react-table --save  or  yarn add react-table ,*
+*For install MaterialUI => npm install @mui/material @emotion/react @emotion/styled or yarn add @mui/material @emotion/react @emotion/styled ,*
+*For install MaterialUI Icons => npm install @mui/icons-material or yarn add @mui/icons-material .*
 
 
 # Getting Started with Create React App
