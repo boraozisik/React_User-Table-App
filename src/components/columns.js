@@ -3,47 +3,36 @@ import { Avatar } from "@mui/material"
 export const COLUMNS = [
     {
         Header: 'Image',
-        accessor: 'icon',
-        
+        accessor: 'avatar',
         disableFilters: true,
-
         Cell: tableProps => (
-            <Avatar src={tableProps.row.original.icon} />      
+            <Avatar src={tableProps.row.original.avatar} />      
           )
     },
+    
     {
-        Header: 'Id',
-        Footer: 'Id',
-        accessor: 'id',
-        
-
-    },
-    {
-        Header: 'Name',
-        Footer: 'Name',
-        accessor: 'name',
+        Header: ' First Name',
+        Footer: 'First Name',
+        accessor: 'first_name',
     },  
     {
-        Header: 'E-mail',
-        Footer: 'E-mail',
-        accessor: 'email',
+        Header: 'Last Name',
+        Footer: 'Last Name',
+        accessor: 'last_name',
     },
     {
-        Header: 'Favorite Game',
-        Footer: 'Favorite Game',
-        accessor: 'favorite_game',
+        Header: 'Gender',
+        Footer: 'Gender',
+        accessor: 'gender',
     },
     {
-        Header: 'Favorite Book',
-        Footer: 'Favorite Book',
-        accessor: 'favorite_book',
+        Header: 'Date of Birth',
+        Footer: 'Date of Birth',
+        accessor: 'date_of_birth',
     },
-    {
-        Header: 'Favorite Film',
-        Footer: 'Favorite Film',
-        accessor: 'favorite_film',
-    },
+   
     
 
 
 ]
+
