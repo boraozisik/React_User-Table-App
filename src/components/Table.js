@@ -1,17 +1,16 @@
 import React, { useMemo} from 'react'
 import { useTable,usePagination,useGlobalFilter,useSortBy } from 'react-table'
 import { COLUMNS, } from './columns'
-
 import './table.css'
 import { GlobalFilter } from './GlobalFilter'
 import { Button,IconButton,ButtonGroup } from '@mui/material'
 import DeleteIcon from '@mui/icons-material/Delete';
-import EditIcon from '@mui/icons-material/Edit';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import FirstPageIcon from '@mui/icons-material/FirstPage';
 import LastPageIcon from '@mui/icons-material/LastPage';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
+import CustomizedDialogs from './Dialog'
 
 
 
@@ -66,15 +65,7 @@ export const Table = ({userList,setUserListMethod}) => {
     
     }
 
-    const handleEditClick = () => {
-        console.log("Edit Clicked")
-        
-        
-        
-          
-  
-      
-    }
+    
     
 
     return (
@@ -129,9 +120,9 @@ export const Table = ({userList,setUserListMethod}) => {
 
                                 
                                 <td>
-                                    <IconButton aria-label='edit' color='info' size='small' onClick = {() => handleEditClick()} >
+                                    <IconButton aria-label='edit' color='info' size='small'   >
                                         
-                                        <EditIcon/>
+                                        <CustomizedDialogs/>
                                     </IconButton>    
                                     
                                     <IconButton aria-label='delete' color='error' size='small' onClick = {() => handleDeleteClick(row)} >
@@ -152,7 +143,7 @@ export const Table = ({userList,setUserListMethod}) => {
             <ButtonGroup size='medium'>
             <Button variant = 'contained' color='success' startIcon = {<FirstPageIcon/>}  onClick = {() => gotoPage(0)} disabled = {!canPreviousPage} ></Button>
             <Button variant = 'contained' color='info' startIcon = {<ArrowBackIcon/>}  onClick = {() => previousPage()} disabled = {! canPreviousPage} >Previous</Button>
-            <Button variant = 'contained' color='info' startIcon = {<ArrowForwardIcon/>}  onClick = {() => nextPage()} disabled = {! canNextPage} >Next</Button>    
+            <Button variant = 'contained' color='info' endIcon = {<ArrowForwardIcon/>}  onClick = {() => nextPage()} disabled = {! canNextPage} >Next</Button>    
             <Button variant = 'contained' color='success' startIcon = {<LastPageIcon/>}  onClick = {() => gotoPage(pageCount - 1)} disabled = {!canNextPage} ></Button>
             </ButtonGroup>
         </div>
