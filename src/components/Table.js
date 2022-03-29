@@ -1,7 +1,7 @@
-import React, { useMemo,useState} from 'react'
+import React, { useMemo} from 'react'
 import { useTable,usePagination,useGlobalFilter,useSortBy } from 'react-table'
-import user_data from './user_data.json'
 import { COLUMNS, } from './columns'
+
 import './table.css'
 import { GlobalFilter } from './GlobalFilter'
 import { Button,IconButton,ButtonGroup } from '@mui/material'
@@ -15,15 +15,11 @@ import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 
 
-export const Table = () => {
+export const Table = ({userList,setUserListMethod}) => {
 
 
-    const [userList,setUserList] = useState(user_data);
     
-    const setUserListMethod = setUserList;
-
     const columns = useMemo(() => COLUMNS, [])
-    
 
    
     const tableInstance = useTable({ columns: columns,data: userList},useGlobalFilter,useSortBy,usePagination)
@@ -59,13 +55,13 @@ export const Table = () => {
     
 
     const handleDeleteClick = (row) => {
-    
-      const newList = [...userList];
-      const index = userList.findIndex((rowContact) => rowContact.id === row.original.id);
-      
-      
-      newList.splice(index,1)
-      setUserListMethod(newList)
+      if(window.confirm('Are you sure to delete this user?')){
+        const newList = [...userList];
+        const index = userList.findIndex((rowContact) => rowContact.id === row.original.id);      
+        newList.splice(index,1)
+        setUserListMethod(newList)
+      }
+     
       
     
     }
