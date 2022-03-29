@@ -1,15 +1,33 @@
 import React from 'react';
 import './App.css';
 import { Table } from './components/Table';
-import { Typography,Stack,TextField,Grid,Card, CardContent,CardActions,CardMedia,AppBar,Toolbar,IconButton} from '@mui/material'
+import { Typography,Stack,TextField,Grid,Card, CardContent,CardActions,CardMedia,AppBar,Toolbar,IconButton,Button} from '@mui/material'
 import {useState} from 'react';
 import TableChartIcon from '@mui/icons-material/TableChart';
+import user_data from './components/user_data.json'
+import CustomizedDialogs from './components/Dialog';
+
+
 
 function App() {
 
   const[valueEmail,setValueEmail] = useState('')
   const[valueName,setValueName] = useState('')
+  const [userList,setUserList] = useState(user_data);
+    
+  const setUserListMethod = setUserList;
+  
+  
 
+  const fetchUser = async () => {
+    
+    const res = await fetch("https://random-data-api.com/api/users/random_user");
+    const data = await res.json();   
+    setUserListMethod([...userList,data])
+
+
+  }
+  
   return (
     
   <Stack className="App">
@@ -18,7 +36,7 @@ function App() {
             <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
                 <TableChartIcon/>
             </IconButton>
-                <Typography variant ='h6' component='div'>User Table App</Typography>
+                <Typography variant ='h5' component='div'>User Table App</Typography>
           </Toolbar>
       </AppBar>
       
@@ -30,14 +48,18 @@ function App() {
         <Grid item xs={10}>
           <Card>
             <CardContent>
-              <Table /> 
+              <Table userList={userList} setUserListMethod={setUserListMethod}/> 
             </CardContent>  
             
           </Card>
         </Grid>
         <Grid item xs={2} >
-        
           <Card>
+            <CardContent>
+              <Button variant = 'contained' color='info' onClick={fetchUser}>Add User</Button>
+            </CardContent>
+          </Card>
+          <Card style={{marginTop: 50}}>
           <CardContent >
           <CardMedia
             component='img'
@@ -76,6 +98,7 @@ function App() {
               </Stack>
               
           </CardActions>  
+
           </Card>
           
         
