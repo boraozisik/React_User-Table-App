@@ -1,18 +1,17 @@
 import React from 'react';
 import './App.css';
 import { Table } from './components/Table';
-import { Typography,Stack,TextField,Grid,Card, CardContent,CardActions,CardMedia,AppBar,Toolbar,IconButton,Button} from '@mui/material'
+import { Typography,Stack,Grid,Card, CardContent,CardMedia,AppBar,Toolbar,IconButton,Button} from '@mui/material'
 import {useState} from 'react';
 import TableChartIcon from '@mui/icons-material/TableChart';
 import user_data from './components/user_data.json'
-import CustomizedDialogs from './components/Dialog';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
 
 
 
 function App() {
 
-  const[valueEmail,setValueEmail] = useState('')
-  const[valueName,setValueName] = useState('')
+  
   const [userList,setUserList] = useState(user_data);
     
   const setUserListMethod = setUserList;
@@ -56,48 +55,33 @@ function App() {
         <Grid item xs={2} >
           <Card>
             <CardContent>
-              <Button variant = 'contained' color='info' onClick={fetchUser}>Add User</Button>
+            <CardMedia
+            component='img'
+            height='140'
+            image='https://png.pngtree.com/png-vector/20190307/ourlarge/pngtree-vector-add-user-icon-png-image_762930.jpg'
+            />
+              
             </CardContent>
           </Card>
           <Card style={{marginTop: 50}}>
+            <CardContent>
+            <Button variant = 'contained' color='info' endIcon={<PersonAddIcon/>} onClick={fetchUser}>Add User</Button>
+            </CardContent>
+          </Card>
+
+          <Card style={{marginTop: 50}}>
           <CardContent >
+          
+          
           <CardMedia
             component='img'
             height='140'
-            image='https://cdn3.vectorstock.com/i/1000x1000/26/52/write-edit-text-concept-writing-editing-documents-vector-25082652.jpg'
+            image='https://i.dlpng.com/static/png/6628474_preview.png'
             />
-            <Typography variant = 'h5' marginTop={5} color='#2E86C1'>Edit User</Typography>
-            <hr />
+            
+            
           </CardContent>  
-          <CardActions >
-              <Stack spacing={2}  >
-
-                <TextField  label='Full Name'
-                 variant='outlined'
-                 color='success'
-                 value={valueName}
-                 onChange = {e => setValueName(e.target.value)}
-                 required 
-                 error = {!valueName}
-                 helperText="Enter name and surname"/>                
-                <TextField  
-                 label='Email'
-                 variant='outlined'
-                 color='success'
-                 value={valueEmail}
-                 onChange = {e => setValueEmail(e.target.value)}
-                 required 
-                 error = {!valueEmail}
-                 helperText={!valueEmail ? 'Required' : "Please enter a valid e-mail"}
-                 />
-                 
-                <TextField  label='Favorite Game' variant='outlined' color='success'  helperText="Enter a favorite game"/>
-                <TextField  label='Favorite Book' variant='outlined' color='success' helperText="Enter a favorite book"/>
-                <TextField  label='Favorite Film' variant='outlined' color='success' helperText="Enter a favorite film"/>
-                
-              </Stack>
-              
-          </CardActions>  
+         
 
           </Card>
           
@@ -116,3 +100,4 @@ function App() {
 }
 
 export default App;
+
