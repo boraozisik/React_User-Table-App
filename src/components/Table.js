@@ -47,7 +47,7 @@ export const Table = ({userList,setUserListMethod}) => {
     
     const {globalFilter,pageIndex} = state
     
-    
+    const editRow = page.map(row => {return row})
     
     
     
@@ -122,7 +122,7 @@ export const Table = ({userList,setUserListMethod}) => {
                                 <td>
                                     <IconButton aria-label='edit' color='info' size='small'   >
                                         
-                                        <CustomizedDialogs/>
+                                        <CustomizedDialogs editRow={editRow} userList={userList}/>
                                     </IconButton>    
                                     
                                     <IconButton aria-label='delete' color='error' size='small' onClick = {() => handleDeleteClick(row)} >
@@ -149,7 +149,7 @@ export const Table = ({userList,setUserListMethod}) => {
         </div>
 
         <div>
-            <Button variant = 'contained' color='warning' startIcon = {<ContactPageIcon/>} disableRipple size='medium'>
+            <Button variant = 'contained' style={{backgroundColor: '#EC7063', color: '#f2f2f2'}} startIcon = {<ContactPageIcon/>} disableRipple size='medium'>
                 Page: {' '}<strong> {pageIndex + 1} / {pageOptions.length}</strong>{' '}
             </Button>
             
