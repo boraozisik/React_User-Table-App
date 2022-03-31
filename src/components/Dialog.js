@@ -10,6 +10,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import {useState} from 'react';
+import { COLUMNS } from './columns'
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   '& .MuiDialogContent-root': {
@@ -49,7 +50,7 @@ BootstrapDialogTitle.propTypes = {
   onClose: PropTypes.func.isRequired,
 };
 
-export default function CustomizedDialogs() {
+export default function CustomizedDialogs({editRow,userList}) {
   const [open, setOpen] = React.useState(false);
   const[valueLastName,setValueLastName] = useState('')
   const[valueFirstName,setValueFirstName] = useState('')
@@ -61,11 +62,16 @@ export default function CustomizedDialogs() {
     setOpen(false);
   };
 
+  const handleChanges = () => {
+    console.log("Dialog submit clicked")
+   
+  }
+
   return (
     <div>
       
                                         
-      <EditIcon onClick = {handleClickOpen}/>
+      <EditIcon onClick = {handleClickOpen} />
         
      
       <BootstrapDialog
@@ -86,7 +92,7 @@ export default function CustomizedDialogs() {
           onChange = {e => setValueFirstName(e.target.value)}
           required 
           error = {!valueFirstName}
-          helperText={!valueFirstName ? 'Required' : "Please enter a valid first name"}/>                
+          helperText={!valueFirstName ? 'First Name: Reguired' : "Enter first name"}/>                
           <TextField  
           label='Last Name'
           variant='outlined'
@@ -95,12 +101,12 @@ export default function CustomizedDialogs() {
           onChange = {e => setValueLastName(e.target.value)}
           required 
           error = {!valueLastName}
-          helperText={!valueLastName ? 'Required' : "Please enter a valid last name"}
+          helperText={!valueLastName ? 'Last Name: Reguired' : "Enter last name"}
           />
  
           <TextField  label='Gender' variant='outlined' color='success'  helperText="Enter a gender"/>
           <TextField  label='Date of Birth' variant='outlined' color='success' helperText="Enter date of birth"/>
-          <Button  variant = 'contained' color='info'>Save Changes</Button>
+          <Button onClick={handleChanges} variant = 'contained' color='info'>Save Changes</Button>
 
         </Stack>
         </DialogContent>
