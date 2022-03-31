@@ -32,8 +32,8 @@ function App() {
   <Stack className="App">
       <AppBar position='static'>
           <Toolbar>
-            <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
-                <TableChartIcon/>
+            <IconButton size='large' edge='start' color='inherit' aria-label='logo' href='http://localhost:3000/'> 
+                <TableChartIcon />
             </IconButton>
                 <Typography variant ='h5' component='div'>User Table App</Typography>
           </Toolbar>
@@ -76,7 +76,7 @@ function App() {
           <CardMedia
             component='img'
             height='140'
-            image='https://i.dlpng.com/static/png/6628474_preview.png'
+            image='https://www.kindpng.com/picc/m/22-220676_code-icon-code-icon-png-transparent-png.png'
             />
             
             
